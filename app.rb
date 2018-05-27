@@ -7,7 +7,7 @@ class App < Sinatra::Base
     set :session_secret, "peaches"
   end
 
-  get '/' do
+  get '/checkout' do
     erb :index
   end
 
