@@ -9,7 +9,8 @@ class App < Sinatra::Base
 
   get '/checkout' do
     @session = session
-    
+    binding.pry
+
     erb :index
   end
 
